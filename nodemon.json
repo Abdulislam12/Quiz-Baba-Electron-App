@@ -1,0 +1,6 @@
+{
+    "watch": ["index.js", "preload.js", "index.html"],
+    "ext": "js,html",
+    "exec": "electron ."
+  }
+  

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Screen Capturer</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="title-bar">
+      <span class="title">Quiz Ai</span>
+      <div class="btn-container">
+        <button class="btn minimize-btn" id="minimizeBtn">➖</button>
+        <button class="btn close-btn" id="closeBtn">❌</button>
+      </div>
+    </div>
+    <div class="content">
+      <img
+        id="screenshot"
+        src="./Client_imges/img_1.png"
+        alt="Screenshot will appear here"
+      />
+      <div class="buttons">
+        <button id="captureBtn">Capture</button>
+        <button id="Ans" style="display: none">Get Ans</button>
+      </div>
+      <div class="spinner" id="spinner"></div>
+      <p id="result"></p>
+      <!-- show response here -->
+    </div>
+    <script src="./js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

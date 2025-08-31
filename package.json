@@ -1,0 +1,39 @@
+{
+  "name": "capture",
+  "version": "1.0.0",
+  "description": "online quiz solving application",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/",
+  "publish": {
+    "provider": "github",
+    "releaseType": "release"
+  },
+  "keywords": [],
+  "build": {
+    "appId": "com.quizBaba.autoupdater",
+    "productName": "quizBaba app",
+    "win": {
+      "target": "nsis"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "author": "Quiz Baba",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^31.0.2",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "electron-builder": "^26.0.12",
+    "electron-updater": "^6.6.2"
+  }
+}
